@@ -1,116 +1,112 @@
-# 应用简介
+# 📱 iOS 科学上网使用教程
 
-Shadowrocket是一个性能优异的iOS全局代理软件
+## 📋 应用简介
 
-该客户端仅支持iOS 12及以上系统，iPhone、iPad设备
+Shadowrocket 是一个性能优异的 iOS 全局代理软件，被广大用户亲切地称为"小火箭"。
 
-**请务必确保关闭并后台退出了其他代理软件，所有代理软件都是不能同时使用的。**
+> ⚠️ **注意事项**：
+> - 仅支持 iOS 12 及以上系统，兼容 iPhone 和 iPad 设备
+> - 使用前请确保关闭并后台退出其他代理软件
+> - 所有代理软件都不能同时使用，否则会相互冲突
 
+## ⬇️ 应用下载
 
-# 应用下载
+由于 Shadowrocket 在中国大陆区 App Store 已下架，且需要付费购买，您需要使用非中国区 Apple ID 账号下载。
 
-由于此APP在中国大陆地区商店下架，并且需要付费购买
+### 获取 Apple ID 账号
 
-若需要购买此APP可以前往下面网站购买账号，即可下载
+| 获取方式 | 链接 | 推荐度 |
+|---------|------|--------|
+| 🔐 购买渠道1 | [点击前往](https://852faka.top/) | ⭐⭐⭐⭐⭐ 强烈推荐 |
+| 🔐 购买渠道2 | [点击前往](https://www.wxsdg.store/) | ⭐⭐⭐⭐⭐ 强烈推荐 |
+| 🔓 免费共享账号 | [点击前往](https://appleid.113778.com/share/appid) | ⚠️ 安全性差，谨慎使用 |
 
-👉 [购买渠道1](https://852faka.top/)（推荐）
+### 登录 Apple ID 并下载应用
 
-👉 [购买渠道2](https://www.wxsdg.store/)（推荐）
+按照下方步骤切换账号并下载应用：
 
-👉 [免费共享账号](https://appleid.113778.com/share/appid)（安全性差，慎用）
+![切换Apple ID](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/1.png)
 
+进入 App Store 搜索"Shadowrocket"，图标是一个小火箭的 LOGO，注意不要下载错误应用。
 
-# 购买账号后，按照下方教程切换账号下载即可
+![Shadowrocket应用](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/2.jpg)
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/1.png)
+## 🔧 使用教程
 
+### 步骤 1：添加订阅
 
-进商店搜索：Shadowrocket 图标是一个小火箭的LOGO，别下错了
+1. 打开 Shadowrocket，点击右上角的"**➕**"号
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/2.jpg)
+   ![添加配置](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/3.jpg)
 
+2. 点击"**类型**"进行选择
 
-打开APP后，点击右上角的“➕”号
+   ![选择类型](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/4.jpg)
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/3.jpg)
+3. 选择"**Subscribe**"，选择后会自动返回上一页
 
+   ![选择Subscribe](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/5.jpg)
 
+### 步骤 2：获取订阅地址
 
-点击“类型”进去选择
+前往您的机场【用户中心】主页拷贝订阅地址
+> 💡 **提示**：每个机场的页面布局可能不同，请在相应菜单中寻找订阅地址
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/4.jpg)
+![获取订阅地址1](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/6.png)
 
+![获取订阅地址2](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/7.png)
 
+### 步骤 3：添加订阅链接
 
-选择“Subscribe”，选择后会自动返回上一页
+将拷贝的订阅链接粘贴到 URL 输入框，然后点击"**完成**"返回主界面
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/5.jpg)
+![添加订阅](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/8.jpg)
 
+### 步骤 4：启用自动更新
 
+1. 返回主页面后点击底部的"**设置**"按钮
 
-然后我们去【用户中心】主页拷贝订阅地址（**每个机场主页可能不一样，在对应的机场菜单里自行拷贝订阅地址即可**）
+   ![设置按钮](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/9.jpg)
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/6.png)
+2. 点击"**订阅**"选项
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/7.png)
+   ![订阅选项](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/10.jpg)
 
+3. 开启"**打开时更新**"与"**自动后台更新**"两个开关
 
+   ![开启自动更新](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/11.jpg)
 
+### 步骤 5：设置全局代理
 
+1. 返回主页，点击"**全局路由**"
 
+   ![全局路由](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/12.jpg)
 
-URL那里粘贴你拷贝的订阅链接，然后点“完成”就自动返回APP主界面了
+2. 选择"**代理**"
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/8.jpg)
+   ![选择代理](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/13.jpg)
 
+### 步骤 6：连接使用
 
+1. 返回主页面选择需要的节点，然后点击顶部的连接开关
 
-返回到主页面后先别着急用，需要启用自动更新。先点击设置按钮
+   ![选择节点并连接](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/14.jpg)
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/9.jpg)
+2. 出现弹窗时，必须点击"**允许**"，否则将无法使用
 
+   ![允许连接](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/15.jpg)
 
+3. 连接成功后，第一个选项会变成节点名称，右边的开关点亮
 
-点击订阅选项
+   ![连接成功](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/16.jpg)
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/10.jpg)
+## ❓ 常见问题
 
+- 该客户端仅支持 iOS 12 及以上系统
+- 如果无法正常使用，请检查您的 iOS 版本
+- 过旧的系统请更新至最新的稳定版
+- 如使用测试版系统，可能需要降级到稳定版
 
+---
 
-开启“打开时更新”与“自动后台更新”两个开关
-
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/11.jpg)
-
-
-
-设置好后返回到主页，点击“全局路由”
-
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/12.jpg)
-
-
-
-选择“代理”
-
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/13.jpg)
-
-
-
-返回到主页面就可以选择自己需要的节点了，选择好后点击上面的连接开关
-
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/14.jpg)
-
-
-
-出现弹窗后，点允许，这里不能点其他的，否则将无法使用！！！
-
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/15.jpg)
-
-
-
-当看到第一个选项变成节点名称，右边的开关点亮后就说明已经成功连接代理了。您可以愉悦地在信息高速路飞车了！
-
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/ios/16.jpg)
-
-
-
-**该客户端仅支持iOS12及以上系统。低版本系统不保证能用，如果不能使用，请检查您的iOS版本，如果过旧，请更新至最新的稳定版，如果是测试版请降级到稳定版！**
+�� **最后更新**：2024年3月

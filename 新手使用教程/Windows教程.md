@@ -1,81 +1,88 @@
-# 应用简介
+# 💻 Windows 科学上网使用教程
 
-Clash 是一个使用 Go 语言编写，基于规则的跨平台代理软件核心程序。
+## 📋 应用简介
 
-该客户端仅支持Windows 10 以上系统
+Clash for Windows（简称 CFW）是一个使用 Go 语言编写，基于规则的跨平台代理软件客户端。界面美观，功能强大，是 Windows 平台上最受欢迎的科学上网工具之一。
 
-**使用前，请彻底关闭或者卸载你电脑的杀毒，比如360、火绒、腾讯安全管家，这些垃圾东西会收集你的浏览信息，并且会影响使用**
+> ⚠️ **注意事项**：
+> - 仅支持 Windows 10 及以上系统
+> - 使用前请关闭或卸载可能会干扰网络连接的安全软件（如 360、火绒、腾讯安全管家等）
+> - 这些安全软件可能会收集您的浏览信息，并影响代理软件正常使用
 
-应用下载
+## ⬇️ 应用下载
 
-👉 [大陆网盘下载](https://tagcloud.lanzoue.com/iwyP51dkexsf)（此网盘无需挂代理，大陆网络可以直接打开）
+| 下载渠道 | 链接 | 说明 |
+|---------|------|------|
+| 🇨🇳 大陆网盘下载 | [点击下载](https://tagcloud.lanzoue.com/iwyP51dkexsf) | 无需代理，大陆网络直接可用 |
+| 🌍 国外网盘下载 | [点击下载](https://note.boccc.co/download/New/CFW-CN.rar) | 服务器位于欧洲，部分网络可能下载较慢 |
+| 🐙 Github下载英文原版 | [点击下载](https://github.com/Fndroid/clash_for_windows_pkg/releases) | Github开源项目，可获取最新版本 |
+| 🔤 Github下载中文汉化包 | [点击下载](https://github.com/ender-zhao/Clash-for-Windows_Chinese) | 适用于原版，请按照Github教程汉化 |
 
-👉 [国外网盘下载](https://note.boccc.co/download/New/CFW-CN.rar)（由于下载地址服务器位于欧洲，部分网络可能下载较慢，如有必要请连接代理下载）
+## 🔧 使用教程
 
-👉 [Github下载英文原版](https://github.com/Fndroid/clash_for_windows_pkg/releases)（此代理软件为Github开源项目，有需要可自行在Github下载最新版，部分网络可能下载较慢或者打不开网页，如有必要请连接代理下载）
+### 步骤 1：解压安装
 
-👉 [Github下载中文汉化包](https://github.com/ender-zhao/Clash-for-Windows_Chinese)（此汉化包仅适合原版，下载后请自行按照Github教程汉化，我们不提供支持）
+1. 下载完毕后，先解压文件
+   > 💡 **提示**：如果电脑没有解压软件，可以在百度搜索下载安装"360压缩"等工具
 
-# 使用教程
+   ![解压文件](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/1_3wwwtl.png)
 
-下载完毕后，我们先解压，电脑没有安装解压软件的，自行去【百度】搜索下载一个【360压缩】
+2. 解压后，右键以管理员身份运行应用程序
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/1_3wwwtl.png)
+   ![管理员运行](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/2_qnnc17.png)
 
-解压后，我们右键以管理员身份运行
+3. 首次使用可能会出现Windows安全中心警报，按照图示勾选并允许
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/2_qnnc17.png)
+   ![安全警报](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/3_1d6lc88.png)
 
-第一次使用会提示Windows安全中心警报，我们按照下方图示勾选即可。
+### 步骤 2：获取订阅地址
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/3_1d6lc88.png)
+前往您的机场【用户中心】主页拷贝订阅地址
+> 💡 **提示**：每个机场的页面布局可能不同，请在相应菜单中寻找订阅地址
 
-然后我们去【用户中心】主页拷贝订阅地址（**每个机场主页可能不一样，在对应的机场菜单里自行拷贝订阅地址即可**，）
+![获取订阅地址1](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/4_h73ip5.png)
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/4_h73ip5.png)
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/5_16hc166.png)
+![获取订阅地址2](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/5_16hc166.png)
 
+### 步骤 3：添加订阅
 
+1. 在 Clash 的 Profiles（配置文件）页面，添加订阅
 
-拷贝后，我们在Clash里面添加订阅
+   ![添加订阅](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/6_11yfjrh.png)
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/6_11yfjrh.png)
- 
+2. 添加后，选择刚下载的订阅
 
-订阅添加后，我们选择下载的订阅
+   ![选择订阅](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/7_tisebo.png)
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/7_tisebo.png)
+### 步骤 4：选择节点并连接
 
- 
+1. 在 Proxies（代理）页面选择节点
 
-然后在代理页面选择节点
+   ![代理页面](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/8_xxj3rp.png)
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/8_xxj3rp.png)
+2. 从列表中选择您需要使用的节点
 
- 
+   ![选择节点](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/9_18dv04s.png)
 
-选择你需要使用的节点
+3. 节点选好后如下图所示
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/9_18dv04s.png)
+   ![节点已选择](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/10_prq00a.png)
 
+4. 点击开关按钮开始连接
 
+   ![开始连接](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/11_1p8ggcv.png)
 
-节点选好后如下图所示
+5. 连接成功后如下图所示，现在可以开始畅游互联网
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/10_prq00a.png)
+   ![连接成功](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/12_1f4uozz.png)
 
+## ❓ 常见问题
 
+- 该客户端仅支持 Windows 10 及以上系统
+- 如果连接后无法访问外网，可能是系统兼容性问题
+- 尝试使用其他 Windows 客户端，如 V2rayN、ShadowsocksR 等
+- 如果出现网络连接问题，请尝试禁用防火墙或安全软件
 
-然后开始链接
+---
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/11_1p8ggcv.png)
-
- 
-
-链接成功后如下图所示，最后就可以开始上网冲浪
-
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/win/12_1f4uozz.png)
-
-
-
-该客户端仅支持Windows 10 以上系统，但是也可能有BUG，不一定兼容市面上所有操作系统，如果此客户端您的系统无法使用（比如连上后翻墙翻不了），请更换其它Windows客户端
+�� **最后更新**：2024年3月

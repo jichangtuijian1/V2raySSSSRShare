@@ -1,85 +1,91 @@
-# 应用简介
+# 📱 Android 科学上网使用教程
 
-Clash for Android是基于开源代理软件项目Clash开发的安卓适配版本，代理服务由TAG团队提供与维护，性能优异并且持续迭代版本。
+## 📋 应用简介
 
-该客户端仅支持Android 9 以上系统，但是也可能有BUG，不一定兼容市面上所有手机操作系统，如果以下安卓客户端您的手机系统无法使用，请更换其他安卓APP
+Clash for Android 是基于开源代理软件项目 Clash 开发的安卓适配版本，性能优异并且持续迭代更新。
 
-请务必确保关闭并后台退出了其他代理软件（shadowsocks、VPN、V2rayN 等），安全软件与【国家反诈中心APP】，所有代理软件都是不能同时使用的且和众多安全软件冲突。
+> ⚠️ **注意事项**：
+> - 仅支持 Android 9 及以上系统
+> - 使用前请确保关闭并后台退出其他代理软件（如 Shadowsocks、VPN、V2rayN 等）
+> - 请关闭安全软件与【国家反诈中心APP】，避免冲突
 
+## ⬇️ 应用下载
 
-应用下载
+| 下载渠道 | 链接 | 说明 |
+|---------|------|------|
+| 🇨🇳 大陆网盘下载1 | [点击下载](https://tagcloud.lanzouw.com/iokrd2hcglmb) | 无需代理，大陆网络直接可用 |
+| 🇨🇳 大陆网盘下载2 | [点击下载](https://tagcloud.lanzouw.com/iokrd2hcglmb) | 无需代理，大陆网络直接可用 |
+| 🌍 国外网盘下载 | [点击下载](https://note.boccc.co/download/New/cfa-2.5.11.apk) | 服务器位于欧洲，部分网络可能下载较慢 |
+| 🐙 Github下载原版 | [点击下载](https://github.com/Kr328/ClashForAndroid/releases) | Github开源项目，可获取最新版本 |
 
-👉 [大陆网盘下载1](https://tagcloud.lanzouw.com/iokrd2hcglmb)（此网盘无需挂代理，大陆网络可以直接打开）
+> 🔔 **重要提示**：下载APP后请务必安装！
 
-👉 [大陆网盘下载2](https://tagcloud.lanzouw.com/iokrd2hcglmb)（此网盘无需挂代理，大陆网络可以直接打开）
+## 🔧 使用教程
 
-👉 [国外网盘下载](https://note.boccc.co/download/New/cfa-2.5.11.apk)（由于下载地址服务器位于欧洲，部分网络可能下载较慢，如有必要请连接代理下载）
+### 步骤 1：配置订阅
 
-👉 [Github下载原版](https://github.com/Kr328/ClashForAndroid/releases)（此代理软件为Github开源项目，有需要可自行在Github下载最新版，部分网络可能下载较慢或者打不开网页，如有必要请连接代理下载）
+1. 打开APP后，点击主页的"**配置**"
 
+   ![配置入口](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/1.jpg)
 
-**下载APP后一定要记得安装！！！**
+2. 点击右上角的"**➕**"号
 
-# 使用教程
+   ![添加配置](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/2.jpg)
 
+3. 点击"**从URL导入**"
 
-打开APP后，点击主页的“配置”
+   ![从URL导入](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/3.jpg)
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/1.jpg)
+### 步骤 2：获取订阅地址
 
+前往您的机场【用户中心】主页拷贝订阅地址
+> 💡 **提示**：每个机场的页面布局可能不同，请在相应菜单中寻找订阅地址
 
-点击右上角的“➕”号
+![获取订阅地址1](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/4.png)
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/2.jpg)
+![获取订阅地址2](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/5.png)
 
+### 步骤 3：添加订阅
 
-点击“从URL导入”
+在APP上添加订阅，按照以下配置：
+- **名称**：TAG（或其他方便识别的名称）
+- **URL**：粘贴您拷贝的订阅链接
+- **自动更新**：建议设置为1440分钟（24小时自动更新一次）
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/3.jpg)
+填写完后点击右上角按钮保存。
 
+![添加订阅](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/6.jpg)
 
-然后我们去【用户中心】主页拷贝订阅地址（**每个机场主页可能不一样，在对应的机场菜单里自行拷贝订阅地址即可**）
+### 步骤 4：选择配置并启动
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/4.png)
+1. 选择加载后的配置，然后返回主界面
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/5.png)
+   ![选择配置](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/7.jpg)
 
+2. 点击"**启动**"按钮
 
+   ![启动](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/8.jpg)
 
-在APP上添加订阅，如下图所示，名称写：TAG，URL输入框请粘贴您拷贝的订阅链接，自动更新选项推荐设置为1440分钟（24小时），意思就是每24小时自动更新一次订阅，填写完后点击右上角按钮保存。
+3. 首次使用会弹出连接请求弹窗，**必须点击"确定"**，否则无法使用
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/6.jpg)
+   ![确认请求](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/9.jpg)
 
+### 步骤 5：选择节点
 
-选择加载后的配置，然后返回主界面
+1. 连接成功后，进入代理界面选择您想使用的节点
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/7.jpg)
+   ![代理界面](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/10.jpg)
 
+2. 点击"**手动切换**"选择需要使用的节点
 
+   ![选择节点](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/11.jpg)
 
-点击启动
+## ❓ 常见问题
 
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/8.jpg)
+- 如果应用无法正常工作（如连接后无法访问外网），可能是由于系统兼容性问题
+- 尝试使用其他Android客户端，如V2RayNG、Surfboard等
+- 确保您的Android系统版本在9.0或以上
 
+---
 
-
-
-第一次使用，会弹出连接请求弹窗，一定要点“确定”，点取消将会无法使用
-
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/9.jpg)
-
-
-
-连接成功后就如下图所示，然后就可以进去代理界面去选择您想使用的节点了
-
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/10.jpg)
-
-
-
-点击“手动切换”选择你需要使用的节点，别按照我教程盲目选择，我这只是示范
-
-![image](https://github.com/WallKiller-glitch/V2raySSSSRShare/blob/main/img/andriod/11.jpg)
-
-
-
-该客户端仅支持Android 9 以上系统，但是也可能有BUG，不一定兼容所有操作系统，如果此客户端您的系统无法使用（比如连上后翻墙翻不了），请更换其它Android客户端
+�� **最后更新**：2024年3月
